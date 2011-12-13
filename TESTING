@@ -1,0 +1,22 @@
+Testing uses Google's js-test-driver.
+
+You can download it from http://code.google.com/p/js-test-driver
+
+From their documentation:
+
+First run a server with 
+    java -jar JsTestDriver.jar --port 9876
+
+Then capture a browser by going to the URL of your JsTestDriver server, if running on localhost it should be:
+    http://localhost:9876
+
+You can also tell the server to autocapture the browser by providing a path to the browser exectable on the cammand line. Multiple browsers can be specified if separated by a comma ','.
+
+java -jar JsTestDriver.jar --port 9876 --browser firefoxpath,chromepath
+
+Then run the tests with
+
+java -jar JsTestDriver.jar --tests all
+
+Just read more about js-test-driver if you want to do advanced things.
+
