@@ -1,7 +1,7 @@
-# PSXjs: a JavaScript PSX emulator
+# PSXjs: a JavaScript PSX (Sony Playstation (r)) emulator
 
 An emulator for the PSX written in JavaScript. 
-Currently in production phase and not useable unless you want to cooperate getting it there. 
+Currently in very early phase and not useable unless you want to cooperate getting it there. 
 It's our intention to make a cleanly written emulator that works at acceptable speeds.
 It is also an exercise in make a good unit-tested Javascript project and in using WebGL for accelerated graphical output.
 
