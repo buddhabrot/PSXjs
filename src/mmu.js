@@ -63,7 +63,10 @@ MMU.prototype.reset = function() {
     calloc(this.bios, 0xbfc00000, 0xbfc7ffff);
 };
 
-MMU.prototype.read8 = function() {
-
+MMU.prototype.read8 = function(address) {
+    if(address < 0x10000)
+        return this.kernel[address];
+    else if(address < 0x200000)
+        return this.user[address];
 }
 
